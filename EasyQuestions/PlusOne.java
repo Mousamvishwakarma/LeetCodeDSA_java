@@ -11,5 +11,9 @@ public class PlusOne {
             }
              digits[i] = 0;
         }
+          int[] result = new int[n + 1];
+        result[0] = 1; // e.g., 999 + 1 = 1000
+        return result;
     }
-}
+    }
+
