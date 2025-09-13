@@ -12,8 +12,14 @@ public class PlusOne {
              digits[i] = 0;
         }
           int[] result = new int[n + 1];
-        result[0] = 1; // e.g., 999 + 1 = 1000
+        result[0] = 1; 
         return result;
     }
+    
+    public static void main(String[] args) {
+        int[] digits = {1, 2, 3};
+        System.out.println(Arrays.toString(plusOne(digits)));
     }
+}
+    
 
