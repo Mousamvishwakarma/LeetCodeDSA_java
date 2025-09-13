@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class PlusOne {
-    int nums =0;
+    
     public static int[] plusOne(int[] digits) {
         int n = digits.length;
           for (int i = n - 1; i >= 0; i--) {
