@@ -10,9 +10,9 @@ public class TypableWords {
                     break;
                 }
             }
-            // if (canType) {
-            //     count++;
-            // }
+            if (canType) {
+                count++;
+            }
         }
         return count;
     }
