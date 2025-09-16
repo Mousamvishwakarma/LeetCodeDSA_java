@@ -13,6 +13,7 @@ public class LongestSubstring {
                 left++;
             }
             set.add(s.charAt(right));
+
             maxLen = Math.max(maxLen, right - left + 1);
         }
 
