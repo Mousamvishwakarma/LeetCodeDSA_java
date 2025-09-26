@@ -26,7 +26,7 @@ public class characters {
         return stack.isEmpty();
     }
     public static void main(String[] args) {
-        Nwe sol = new Nwe();
+        characters sol = new characters();
         String input = "([{}])";
         boolean result = sol.isValid(input);
         System.out.println("Is the string valid? " + result); 
