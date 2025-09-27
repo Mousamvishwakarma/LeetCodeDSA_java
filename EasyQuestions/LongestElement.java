@@ -21,7 +21,7 @@ public class LongestElement {
             }
         }
         return prefix;
-    };
+    }
     public static void main(String[] args) {
         LongestElement sol = new LongestElement();
         String[] input = {"flower", "flow", "flight"};
