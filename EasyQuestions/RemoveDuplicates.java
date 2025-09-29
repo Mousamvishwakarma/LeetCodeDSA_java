@@ -13,3 +13,15 @@ public class RemoveDuplicates {
 
         return k;
     }
+    
+    public static void main(String[] args) {
+        int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+        int k = removeDuplicates(nums);
+
+        System.out.println("Unique count: " + k);
+        System.out.print("Modified array: ");
+        for (int i = 0; i < k; i++) {
+            System.out.print(nums[i] + " ");
+        }
+    }
+}
