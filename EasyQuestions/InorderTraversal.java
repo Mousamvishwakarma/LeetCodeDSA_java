@@ -33,10 +33,10 @@ public class InorderTraversal {
         root.right = new TreeNode(2);
         root.right.left = new TreeNode(3);
 
-        // Call inorder traversal
+        
         List<Integer> result = inorderTraversal(root);
 
-        // Print the result
+
         System.out.println(result); // Output: [1, 3, 2]
     }
 }
