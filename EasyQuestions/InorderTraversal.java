@@ -37,6 +37,6 @@ public class InorderTraversal {
         List<Integer> result = inorderTraversal(root);
 
 
-        System.out.println(result); // Output: [1, 3, 2]
+        System.out.println(result); 
     }
 }
