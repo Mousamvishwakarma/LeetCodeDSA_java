@@ -1,12 +1,10 @@
 class Solution {
     public int myAtoi(String s) {
-        // Step 1: Remove leading whitespaces
         int i = 0, n = s.length();
         while (i < n && s.charAt(i) == ' ') {
             i++;
         }
 
-        // If string is empty after removing spaces
         if (i == n) return 0;
 
         // Step 2: Check for sign
